@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Ristinolla</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>RISTINOLLA</h1>
+    <table>
+      <tr>
+        <td><button type="button" id="00" onclick="move(this.id)">#</button></td>
+        <td><button type="button" id="01" onclick="move(this.id)">#</button></td>
+        <td><button type="button" id="02" onclick="move(this.id)">#</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" id="10" onclick="move(this.id)">#</button></td>
+        <td><button type="button" id="11" onclick="move(this.id)">#</button></td>
+        <td><button type="button" id="12" onclick="move(this.id)">#</button></td>
+      </tr>
+      <tr>
+        <td><button type="button" id="20" onclick="move(this.id)">#</button></td>
+        <td><button type="button" id="21" onclick="move(this.id)">#</button></td>
+        <td><button type="button" id="22" onclick="move(this.id)">#</button></td>
+      </tr>
+    </table>
+
+    <h2 id="info">Infoteksti</h2>
+    
+    <div id="resetdiv">
+        <button type="button" onclick="reset()" id="reset">NOLLAA PELI</button>
+    </div>
+
+    <script src="js/tictac.js"></script>
+</body>
+</html>

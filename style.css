@@ -1,0 +1,53 @@
+table {
+    margin: auto;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+    font-family: arial;
+    font-style: bold;
+    font-size: 48;
+    background: #FFFFFF;
+}
+
+button:hover {
+    background-color: #FFBBBB;
+}
+
+body {
+    background-color: teal;
+}
+
+h2 {
+    width: 200px;
+    height: 100px;
+    font-family: arial;
+    font-size: 28;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-family: arial;
+    text-align: center;
+}
+
+#reset {
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-size: 30;
+}
+
+#reset:hover {
+    background-color: #FF3333;
+}
+
+#resetdiv {
+    text-align: center;
+}
